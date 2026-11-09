@@ -105,3 +105,7 @@ make test
 ```
 
 The ones worth reading are in `internal/kernel/executor_test.go`: `TestTimeoutDoesNotResend` checks the venue ends up with exactly as many orders as requests were made, `TestReconcileCancelsOrphans` checks a restarted process cleans up after itself, and `TestCancelTerminalIsNoop` checks a second cancel never reaches the venue.
+
+## License
+
+MIT — see [LICENSE](LICENSE).
